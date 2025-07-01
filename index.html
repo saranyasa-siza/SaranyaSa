@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCCD Kolkata '25 - Google Cloud Community Days</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GCCD</span>
+                <span class="logo-year">2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#speakers" class="nav-link">Speakers</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                <li><a href="#networking" class="nav-link">Networking</a></li>
+                <li><a href="#register" class="nav-link cta-btn">Register Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Google Cloud Community Days</div>
+            <h1 class="hero-title">
+                <span class="title-line">Welcome to</span>
+                <span class="title-main">GCCD Kolkata</span>
+                <span class="title-year">2025</span>
+            </h1>
+            <p class="hero-subtitle">
+                Join the most exciting cloud technology event in Eastern India. Connect with industry leaders, 
+                learn cutting-edge technologies, and be part of the thriving developer community.
+            </p>
+            <div class="hero-details">
+                <div class="detail-item">
+                    <div class="detail-icon">📅</div>
+                    <div class="detail-text">
+                        <div class="detail-label">Date</div>
+                        <div class="detail-value">March 15, 2025</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon">📍</div>
+                    <div class="detail-text">
+                        <div class="detail-label">Venue</div>
+                        <div class="detail-value">Salt Lake Convention Center</div>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon">🎫</div>
+                    <div class="detail-text">
+                        <div class="detail-label">Tickets</div>
+                        <div class="detail-value">Free Registration</div>
+                    </div>
+                </div>
+            </div>
+            <div class="countdown-container">
+                <div class="countdown-label">Event starts in:</div>
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="days">00</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">00</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">00</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">00</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#register" class="btn btn-primary">Get Your Free Ticket</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why GCCD Kolkata?</h2>
+                <p class="section-subtitle">
+                    The premier cloud technology event that brings together developers, 
+                    entrepreneurs, and tech enthusiasts from across Eastern India.
+                </p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3>Latest Technologies</h3>
+                    <p>Explore cutting-edge Google Cloud services, AI/ML tools, and emerging technologies that are shaping the future.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">👥</div>
+                    <h3>Expert Speakers</h3>
+                    <p>Learn from Google Developer Experts, industry leaders, and seasoned professionals with real-world experience.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌐</div>
+                    <h3>Networking Gold</h3>
+                    <p>Connect with like-minded developers, potential collaborators, and build relationships that last a lifetime.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Hands-on Learning</h3>
+                    <p>Participate in interactive workshops, code labs, and practical sessions that you can apply immediately.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🏆</div>
+                    <h3>Career Growth</h3>
+                    <p>Gain insights into industry trends, enhance your skills, and discover new career opportunities.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎁</div>
+                    <h3>Exclusive Swag</h3>
+                    <p>Take home exclusive Google Cloud merchandise, certificates, and memories to remember the event.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="section section-dark" id="speakers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Speakers</h2>
+                <p class="section-subtitle">
+                    Meet the industry experts and thought leaders who will share their knowledge and experience.
+                </p>
+            </div>
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Priya Sharma">
+                    </div>
+                    <div class="speaker-content">
+                        <h3 class="speaker-name">Priya Sharma</h3>
+                        <div class="speaker-title">Google Developer Expert</div>
+                        <div class="speaker-company">Cloud Architecture</div>
+                        <p class="speaker-bio">10+ years of experience in cloud architecture and AI/ML solutions. Former Google Cloud Architect.</p>
+                        <div class="speaker-topics">
+                            <span class="topic-tag">Cloud Architecture</span>
+                            <span class="topic-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Arjun Mehta">
+                    </div>
+                    <div class="speaker-content">
+                        <h3 class="speaker-name">Arjun Mehta</h3>
+                        <div class="speaker-title">Senior Tech Lead</div>
+                        <div class="speaker-company">Google India</div>
+                        <p class="speaker-bio">Leading AI/ML initiatives at Google. Expert in TensorFlow and machine learning at scale.</p>
+                        <div class="speaker-topics">
+                            <span class="topic-tag">AI/ML</span>
+                            <span class="topic-tag">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Sneha Das">
+                    </div>
+                    <div class="speaker-content">
+                        <h3 class="speaker-name">Sneha Das</h3>
+                        <div class="speaker-title">DevOps Engineer</div>
+                        <div class="speaker-company">Flipkart</div>
+                        <p class="speaker-bio">DevOps expert with extensive experience in CI/CD, microservices, and cloud-native development.</p>
+                        <div class="speaker-topics">
+                            <span class="topic-tag">DevOps</span>
+                            <span class="topic-tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Rahul Kumar">
+                    </div>
+                    <div class="speaker-content">
+                        <h3 class="speaker-name">Rahul Kumar</h3>
+                        <div class="speaker-title">Security Architect</div>
+                        <div class="speaker-company">Microsoft</div>
+                        <p class="speaker-bio">Cybersecurity expert specializing in cloud security, zero-trust architecture, and threat modeling.</p>
+                        <div class="speaker-topics">
+                            <span class="topic-tag">Security</span>
+                            <span class="topic-tag">Zero Trust</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="section" id="schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Event Schedule</h2>
+                <p class="section-subtitle">
+                    A full day packed with inspiring talks, hands-on workshops, and networking opportunities.
+                </p>
+            </div>
+            <div class="schedule-filters">
+                <button class="filter-btn active" data-track="all">All Sessions</button>
+                <button class="filter-btn" data-track="keynote">Keynotes</button>
+                <button class="filter-btn" data-track="workshop">Workshops</button>
+                <button class="filter-btn" data-track="panel">Panel Discussions</button>
+            </div>
+            <div class="schedule-timeline">
+                <div class="schedule-item" data-track="keynote">
+                    <div class="schedule-time">09:00 - 09:30</div>
+                    <div class="schedule-content">
+                        <h3>Registration & Welcome Coffee</h3>
+                        <p>Network with fellow developers while enjoying freshly brewed coffee</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Registration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="keynote">
+                    <div class="schedule-time">09:30 - 10:15</div>
+                    <div class="schedule-content">
+                        <h3>Opening Keynote: The Future of Cloud Computing</h3>
+                        <p>An inspiring look at emerging trends and technologies shaping the cloud landscape</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Keynote</span>
+                            <span class="schedule-speaker">Priya Sharma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="workshop">
+                    <div class="schedule-time">10:30 - 11:30</div>
+                    <div class="schedule-content">
+                        <h3>Building ML Models with TensorFlow</h3>
+                        <p>Hands-on workshop covering the fundamentals of machine learning with TensorFlow</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Workshop</span>
+                            <span class="schedule-speaker">Arjun Mehta</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="panel">
+                    <div class="schedule-time">11:45 - 12:30</div>
+                    <div class="schedule-content">
+                        <h3>DevOps Best Practices for Modern Applications</h3>
+                        <p>Learn about CI/CD, containerization, and deployment strategies</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Panel</span>
+                            <span class="schedule-speaker">Sneha Das</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="keynote">
+                    <div class="schedule-time">12:30 - 13:30</div>
+                    <div class="schedule-content">
+                        <h3>Networking Lunch</h3>
+                        <p>Enjoy delicious food while connecting with speakers and fellow attendees</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Break</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="workshop">
+                    <div class="schedule-time">13:30 - 14:30</div>
+                    <div class="schedule-content">
+                        <h3>Cloud Security: Zero Trust Architecture</h3>
+                        <p>Deep dive into implementing zero trust security in cloud environments</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Workshop</span>
+                            <span class="schedule-speaker">Rahul Kumar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="panel">
+                    <div class="schedule-time">14:45 - 15:30</div>
+                    <div class="schedule-content">
+                        <h3>Panel: Career Growth in Tech</h3>
+                        <p>Interactive discussion about career development and opportunities in technology</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Panel</span>
+                            <span class="schedule-speaker">All Speakers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item" data-track="keynote">
+                    <div class="schedule-time">15:45 - 16:30</div>
+                    <div class="schedule-content">
+                        <h3>Closing Keynote & Networking</h3>
+                        <p>Wrap-up session with final thoughts and extended networking opportunity</p>
+                        <div class="schedule-meta">
+                            <span class="schedule-type">Keynote</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Networking Section -->
+    <section class="section section-gradient" id="networking">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Networking Opportunities</h2>
+                <p class="section-subtitle">
+                    Build meaningful connections that will accelerate your career and projects.
+                </p>
+            </div>
+            <div class="networking-grid">
+                <div class="networking-card">
+                    <div class="networking-icon">☕</div>
+                    <h3>Coffee Chats</h3>
+                    <p>Informal conversations over coffee with speakers and industry experts. Perfect for asking questions and getting advice.</p>
+                </div>
+                <div class="networking-card">
+                    <div class="networking-icon">🤝</div>
+                    <h3>Speed Networking</h3>
+                    <p>Quick introductions with fellow developers. Exchange ideas, find collaborators, and discover new opportunities.</p>
+                </div>
+                <div class="networking-card">
+                    <div class="networking-icon">🎯</div>
+                    <h3>Project Showcase</h3>
+                    <p>Present your projects, get feedback, and find team members for your next big idea.</p>
+                </div>
+                <div class="networking-card">
+                    <div class="networking-icon">💼</div>
+                    <h3>Career Corner</h3>
+                    <p>Connect with recruiters, learn about job opportunities, and get career guidance from industry veterans.</p>
+                </div>
+            </div>
+            <div class="community-stats">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Expected Attendees</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Companies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Tech Talks</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Hours of Learning</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="section" id="register">
+        <div class="container">
+            <div class="registration-container">
+                <div class="registration-content">
+                    <h2>Ready to Join Us?</h2>
+                    <p>Don't miss out on this incredible opportunity to learn, network, and grow with the Google Cloud community in Kolkata.</p>
+                    <div class="registration-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Free admission to all sessions</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Complimentary lunch and refreshments</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Exclusive Google Cloud swag</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Certificate of participation</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Access to presentation slides</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="registration-form">
+                    <form class="form" id="registrationForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" required>
+                            <label for="company">Company/Organization</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="role" name="role" required>
+                                <option value="">Select your role</option>
+                                <option value="developer">Software Developer</option>
+                                <option value="student">Student</option>
+                                <option value="entrepreneur">Entrepreneur</option>
+                                <option value="designer">Designer</option>
+                                <option value="manager">Project Manager</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="role">Professional Role</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to GDG Kolkata newsletter for future events</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span class="btn-text">Register for Free</span>
+                            <span class="btn-loading">Processing...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GCCD Kolkata 2025</h3>
+                    <p>Part of the global Google Cloud Community Days program, bringing world-class cloud education to developers in Eastern India.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Event Info</h4>
+                    <ul>
+                        <li>March 15, 2025</li>
+                        <li>Salt Lake Convention Center</li>
+                        <li>Kolkata, West Bengal</li>
+                        <li>Free Registration</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Event</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>info@gdgkolkata.org</li>
+                        <li>+91 98765 43210</li>
+                        <li>GDG Kolkata Community</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Google Cloud Community Days Kolkata. Organized by GDG Kolkata.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
